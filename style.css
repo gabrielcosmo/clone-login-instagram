@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+body{
+    background-color: #fafafa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+section#main{
+    height: 57vh;
+}
+
+aside{
+    height: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ section#main > *{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+ }
+
+form{
+    margin: 3em auto;
+}
+
+div#logo{
+    margin-bottom: 3em;
+}
+
+form > input, button{
+    margin: 0.2em auto;
+    width: 90%;
+    height: 2em;
+    border-radius: 3px;
+}
+
+form > input{
+    padding: 0.5em;
+    background-color: #fafafa;
+    border: 1px solid #e5e5e5;
+}
+
+form > button{
+    margin-top: 1.2em;
+    padding: 0.4em;
+    background-color: #67b6da;
+    color: white;
+    border: 0px solid;
+}
+
+div#options > p, ul{
+    margin: auto;
+    font-size: 0.9em;
+    padding: 0;
+}
+
+
+.card{
+    width: 20vw;
+    max-width: 20vw;
+    min-width: 20vw;
+
+    margin: auto;
+    margin-top: 5vh;
+    
+    padding: 1em;
+    background-color: #fff;
+    border: 0.1px solid #a0a0a0;
+}
+
+button:hover{
+    cursor: pointer;
+}
